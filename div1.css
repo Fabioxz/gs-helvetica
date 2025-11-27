@@ -47,11 +47,6 @@ li:hover {
     font-weight: 700;
 }
 
-main {
-    background-color: #f1efea;
-    min-height: calc(100svh - 240px );
-}
-
 h1 {
     position: relative;
     bottom: 10rem;
@@ -62,94 +57,7 @@ h1 {
     
 }
 
-.setima-foto img {
-    max-width: 45rem;
-    height: 35rem;
-    border-radius: 20%;
-    position: relative;
-    bottom: 10rem;
-    left: 20rem;
-    
-}
-
-.texto-7 h2{
-   
-    position: relative;
-    bottom: 46rem;
-    padding-block: 3rem;
-    color: #661312;
-    font-size: 4.5rem;
-    left: 70rem;
-}
-.texto-7 p {
-    position: relative;
-    bottom: 48rem;
-    left: 70rem;
-    text-align: justify;
-    max-width: 450px;
-    font-size: 22px;
-    min-width: 4px;
-    color: #661312;
-}
-
-.oitava-foto img {
-    max-width: 45rem;
-    height: 35rem;
-    border-radius: 20%;
-    position: relative;
-    bottom: 35rem;
-    left: 80rem;
-}
-.texto-8 h2 {
-    position: relative;
-    bottom: 71rem;
-    padding-block: 3rem;
-    color: #661312;
-    font-size: 4.5rem;
-    left: 30rem;
-
-}
-
-.texto-8 p {
-    position: relative;
-    bottom: 73rem;
-    left: 30rem;
-    text-align: justify;
-    max-width: 450px;
-    font-size: 22px;
-    min-width: 4px;
-    color: #661312;
-}
- .nona-foto img {
-    max-width: 45rem;
-    height: 35rem;
-    border-radius: 20%;
-    position: relative;
-    bottom: 60rem;
-    left: 20rem;
-
- }
- .texto-9 h2 {
-    position: relative;
-    bottom: 96rem;
-    padding-block: 3rem;
-    color: #661312;
-    font-size: 4.5rem;
-    left: 70rem;
- }
-
- .texto-9 p {
-    position: relative;
-    bottom: 98rem;
-    left: 70rem;
-    text-align: justify;
-    max-width: 450px;
-    font-size: 22px;
-    min-width: 4px;
-    color: #661312;
- }
-
- .primeira_foto img{
+.primeira_foto img{
     max-width: 45rem;
     height: 45rem;
     border-radius: 50%;
@@ -309,6 +217,94 @@ h1 {
     min-width: 4px;
     color: #661312;
  }
+
+.setima-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 10rem;
+    left: 20rem;
+    
+}
+
+.texto-7 h2{
+   
+    position: relative;
+    bottom: 46rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 70rem;
+}
+.texto-7 p {
+    position: relative;
+    bottom: 48rem;
+    left: 70rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+}
+
+.oitava-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 35rem;
+    left: 80rem;
+}
+.texto-8 h2 {
+    position: relative;
+    bottom: 71rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 30rem;
+
+}
+
+.texto-8 p {
+    position: relative;
+    bottom: 73rem;
+    left: 30rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+}
+ .nona-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 60rem;
+    left: 20rem;
+
+ }
+ .texto-9 h2 {
+    position: relative;
+    bottom: 96rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 70rem;
+ }
+
+ .texto-9 p {
+    position: relative;
+    bottom: 98rem;
+    left: 70rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+ }
+
 
  .decima-foto img{
     max-width: 45rem;
