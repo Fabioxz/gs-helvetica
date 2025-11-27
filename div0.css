@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #f1efea;
+}
+
+header {
+    background-color: #fafafa;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo img {
+    width: 17rem;
+    height: 6rem;
+}
+
+#links {
+    background-color: #b9030f;
+    height: 4rem;
+    padding-block: 1rem;
+    margin-bottom: 10rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+li:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+main {
+    background-color: #f1efea;
+    min-height: calc(100svh - 240px );
+}
+
+#bandhelve img {
+    max-width: 29rem;
+    height: 29rem;
+    border-radius: 50%;
+    position: relative;
+    left: 29rem;
+    bottom: 17.5rem;
+}
+
+fieldset {
+    background-color: #fff;
+    margin-inline: auto;
+    width: 37rem;
+    height: 28rem;
+    border-radius: 2rem;
+    border: #fff;
+}
+
+h1 {
+    text-align: center;
+    padding-block: 3rem;
+    color: #b9030f;
+}
+
+#email {
+    text-align: center;
+    color: #b9030f;
+}
+
+#senha {
+    text-align: center;
+}
+
+input {
+    border-width: 2px;
+    border-color: #b9030f;
+    text-align: center;
+    margin-top: .6rem;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    color: #b9030f;
+    position: relative;
+    bottom: 2rem;
+}
+
+button {
+    font-weight: 700;
+    border-radius: 2.7rem;
+    background-color: #b9030f;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 2.5px 22px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    bottom: 28.5rem;
+    left: 14rem;
+}
+
+#cadconta {
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    bottom: 27rem;
+    color: #b9030f;
+}
+
+#corconta {
+    color: #b9030f;
+}
+
+input::placeholder {
+    color: #b9030f
+}
+
+#psen {
+    text-align: center;
+    position: relative;
+    bottom: 30rem;
+    color: #b9030f;
+    font-size: 8px;
+}
+
+#neve img {
+    max-width: 29rem;
+    height: 29rem;
+    border-radius: 50%;
+    position: relative;
+    left: 29rem;
+    bottom: 24rem;
+}
+
+#cadcent {
+    text-align: center;
+}
+
+#botaocad {
+    position: relative;
+    bottom: 19px;
+}
+
+#home {
+    font-family: "Playfair Display", sans-serif;
+    position: relative;
+    right: 20rem;
+    bottom: 10rem;
+    font-size: 50px;
+}
+
+#ruazinha img {
+    width: 90rem;
+    height: 40rem;
+    border-radius: 2rem;
+    position: relative;
+    left: 23rem;
+    bottom: 10rem;
+}
+
+#pint {
+    font-size: 15px;
+    color: #661312;
+    text-align: center;
+    position: relative;
+    bottom: 8rem;
+}
+
+#sep {
+    color: #661312;
+    position: relative;
+    bottom: 5rem;
+}
+
+#field1 {
+    background-color: #661312;
+    height: 40rem;
+    position: relative;
+    right: 27rem;
+    border-radius: 4rem;
+}
+
+#bolha1 {
+    max-width: 27rem;
+    color: #fff;
+    position: relative;
+    bottom: 77rem;
+    left: 27rem;
+}
+
+#field2 {
+    background-color: #661312;
+    height: 40rem;
+    position: relative;
+    left: 27rem;
+    bottom: 39.9rem;
+    border-radius: 4rem;
+}
+
+#bolha2 {
+    max-width: 27rem;
+    color: #fff;
+    position: relative;
+    bottom: 112rem;
+    left: 82.5rem;
+}

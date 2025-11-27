@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #f1efea;
+}
+
+header {
+    background-color: #fafafa;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo img {
+    width: 17rem;
+    height: 6rem;
+}
+
+#links {
+    background-color: #b9030f;
+    height: 4rem;
+    padding-block: 1rem;
+    margin-bottom: 10rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+li:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+main {
+    background-color: #f1efea;
+    min-height: calc(100svh - 240px );
+}
+
+h1 {
+    position: relative;
+    bottom: 10rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 5.5rem;
+    left: 16rem;
+    
+}
+
+.setima-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 10rem;
+    left: 20rem;
+    
+}
+
+.texto-7 h2{
+   
+    position: relative;
+    bottom: 46rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 70rem;
+}
+.texto-7 p {
+    position: relative;
+    bottom: 48rem;
+    left: 70rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+}
+
+.oitava-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 35rem;
+    left: 80rem;
+}
+.texto-8 h2 {
+    position: relative;
+    bottom: 71rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 30rem;
+
+}
+
+.texto-8 p {
+    position: relative;
+    bottom: 73rem;
+    left: 30rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+}
+ .nona-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 60rem;
+    left: 20rem;
+
+ }
+ .texto-9 h2 {
+    position: relative;
+    bottom: 96rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 70rem;
+ }
+
+ .texto-9 p {
+    position: relative;
+    bottom: 98rem;
+    left: 70rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+ }
+
+ .primeira_foto img{
+    max-width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10rem;
+    left: 20rem;
+ }
+
+ .texto_1 p {
+    position: relative;
+    bottom: 48rem;
+    left: 30rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #ffffff;
+    width: 800px;
+    padding: 35px;
+    margin-inline: auto;
+    background-color: #b9030f;
+    border-radius: 20%;
+ }
+
+ .segunda_foto img {
+    max-width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40rem;
+    left: 80rem;
+ }
+.texto_2 p {
+    position: relative;
+    bottom: 78rem;
+    right: 20rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+    width: 800px;
+    padding: 35px;
+    margin-inline: auto;
+    background-color: #ffffff;
+    border-radius: 20%;
+}
+
+.terceira_foto img {
+    max-width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: 65rem;
+    left: 20rem;
+}
+
+.texto_3 p{
+    position: relative;
+    bottom: 103rem;
+    left: 30rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #ffffff;
+    width: 800px;
+    padding: 35px;
+    margin-inline: auto;
+    background-color: #b9030f;
+    border-radius: 20%;
+}
+
+.quarta-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 10rem;
+    left: 20rem;
+    
+}
+
+.texto-4 h2{
+   
+    position: relative;
+    bottom: 46rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 70rem;
+}
+.texto-4 p {
+    position: relative;
+    bottom: 48rem;
+    left: 70rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+}
+
+.quinta-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 35rem;
+    left: 80rem;
+}
+.texto-5 h2 {
+    position: relative;
+    bottom: 71rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4rem;
+    left: 30rem;
+
+}
+
+.texto-5 p {
+    position: relative;
+    bottom: 73rem;
+    left: 30rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+}
+ .sexta-foto img {
+    max-width: 45rem;
+    height: 35rem;
+    border-radius: 20%;
+    position: relative;
+    bottom: 60rem;
+    left: 20rem;
+
+ }
+ .texto-6 h2 {
+    position: relative;
+    bottom: 96rem;
+    padding-block: 3rem;
+    color: #661312;
+    font-size: 4.5rem;
+    left: 70rem;
+ }
+
+ .texto-6 p {
+    position: relative;
+    bottom: 98rem;
+    left: 70rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #661312;
+ }
+
+ .decima-foto img{
+    max-width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10rem;
+    left: 20rem;
+ }
+
+ .texto-10 p {
+    position: relative;
+    bottom: 48rem;
+    left: 30rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #000000;
+    width: 800px;
+    padding: 35px;
+    margin-inline: auto;
+    background-color: #ffffff;
+    border-radius: 20%;
+ }
+
+ .decimaprimeira-foto img {
+    max-width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40rem;
+    left: 80rem;
+    width: 41rem;
+ }
+.texto-11 p {
+    position: relative;
+    bottom: 78rem;
+    right: 20rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #000000;
+    width: 800px;
+    padding: 35px;
+    margin-inline: auto;
+    background-color: #ffffff;
+    border-radius: 20%;
+}
+
+.decimasegunda-foto img {
+    max-width: 45rem;
+    height: 45rem;
+    border-radius: 50%;
+    position: relative;
+    bottom: 65rem;
+    left: 20rem;
+}
+
+.texto-12 p{
+    position: relative;
+    bottom: 103rem;
+    left: 30rem;
+    text-align: justify;
+    max-width: 450px;
+    font-size: 22px;
+    min-width: 4px;
+    color: #000000;
+    width: 800px;
+    padding: 35px;
+    margin-inline: auto;
+    background-color: #ffffff;
+    border-radius: 20%;
+}
