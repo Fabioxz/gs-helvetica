@@ -52,20 +52,32 @@ main {
     min-height: calc(100svh - 240px );
 }
 
+#bandhelve {
+    height: 290px
+}
+
 #bandhelve img {
-    max-width: 290px;
-    height: 290px;
+    max-width: 75%;
+    height: 100%;
     border-radius: 50%;
     position: relative;
-    left: 290px;
+    left: 310px;
     bottom: 175px;
+}
+
+#login {
+    height: 280px;
+}
+
+#cadastro {
+    height: 280px;
 }
 
 fieldset {
     background-color: #fff;
     margin-inline: auto;
-    width: 370px;
-    height: 280px;
+    width: 30%;
+    height: 100%;
     border-radius: 2rem;
     border: #fff;
 }
@@ -104,13 +116,13 @@ button {
     color: #fff;
     border: none;
     outline: none;
-    padding: 2.5px 22px;
+    padding: 1.7% 7%;
     font-size: 20px;
     text-align: center;
     position: relative;
     cursor: pointer;
     bottom: 285px;
-    left: 140px;
+    left: 150px;
 }
 
 #cadconta {
@@ -132,14 +144,18 @@ input::placeholder {
 #psen {
     text-align: center;
     position: relative;
-    bottom: 30px;
+    bottom: 300px;
     color: #b9030f;
     font-size: 8px;
 }
 
-#neve img {
-    max-width: 290px;
+#neve {
     height: 290px;
+}
+
+#neve img {
+    max-width: 75%;
+    height: 100%;
     border-radius: 50%;
     position: relative;
     left: 290px;
@@ -163,9 +179,13 @@ input::placeholder {
     font-size: 50px;
 }
 
-#ruazinha img {
-    width: 900px;
+#ruazinha {
     height: 400px;
+}
+
+#ruazinha img {
+    width: 70%;
+    height: 100%;
     border-radius: 20px;
     position: relative;
     left: 230px;
