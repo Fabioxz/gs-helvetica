@@ -23,9 +23,13 @@ a {
     text-decoration: none;
 }
 
+#logo {
+    height: 60px;
+}
+
 #logo img {
-    width: 17rem;
-    height: 6rem;
+    width: 13%;
+    height: 100%;
 }
 
 #links {
